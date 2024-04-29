@@ -89,7 +89,7 @@ def quantum_sub(Q):
     
     # put your token here
     sampler = EmbeddingComposite(DWaveSampler(
-        token="DEV-7521f7e94cf42f8fb0430b3d0bfbca3b00264a27"))
+        token=""))
     sampler_set = sampler.sample(
         bqm, label='quantum sub', chain_strength=2, num_reads=500)
     
